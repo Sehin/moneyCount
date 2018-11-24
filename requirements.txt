@@ -6,3 +6,4 @@ mysql-connector-python==8.0.13
 pytz==2018.7
 requests==2.20.0
 urllib3==1.24.1
+psycopg2==2.7.6.1
