@@ -23,7 +23,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'countmoney_db',
         'USER': 'countmoney',
-        'PASSWORD': '14011402',
+        'PASSWORD': 'countmoney',
         'HOST': 'localhost',
         'PORT': '5432',
     }

@@ -1,0 +1,16 @@
+version: "3"
+services:
+    postgres:
+        container_name: postgresql_countmoney
+        build: .
+        ports: 
+            - 5432:5432
+        environment:
+            - POSTGRES_USER=countmoney
+            - POSTGRES_PASSWORD=countmoney
+            - POSTGRES_DB=countmoney_db
+            - PGDATA=/var/lib/postgresql/data/pgdata
+        volumes:
+            - pg_data_volume_countmoney:/var/lib/postgresql/data/pgdata
+volumes:
+    pg_data_volume_countmoney:
