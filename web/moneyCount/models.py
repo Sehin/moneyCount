@@ -25,3 +25,5 @@ class Money(models.Model):
     count: models.BigIntegerField()
     user: models.ManyToManyField(User)
     category: models.ManyToManyField(Category)
+    comment: models.TextField()
+    is_income: models.BooleanField()
