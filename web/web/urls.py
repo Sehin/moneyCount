@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^json', views.json, name='json'),
     url(r'^$', views.index, name='index'),
+    url(r'bot', views.bot, name='bot'),
 ]
